@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command ShopdrawingTools</Text>
+    <Description>Some description for ShopdrawingTools</Description>
+    <Assembly>ShopdrawingTools.dll</Assembly>
+    <FullClassName>ShopdrawingTools.Command</FullClassName>
+    <ClientId>782acb61-88ac-4b1f-9976-82a85a0731e1</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application ShopdrawingTools</Name>
+    <Assembly>ShopdrawingTools.dll</Assembly>
+    <FullClassName>ShopdrawingTools.App</FullClassName>
+    <ClientId>52c60459-8a58-4361-9025-fd590a3a22d6</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
